@@ -12,7 +12,7 @@ This is a demo on how to use Huawei Push.
 flutter pub get huawei_push
 ```
 
-2. Add `agconnect-services.json` file in `android/app/` ([Get agconnect-services.json](!https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-integrating-sdk-0000001050040084)).
+2. Add `agconnect-services.json` file in `android/app/` ([Get agconnect-services.json](https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-integrating-sdk-0000001050040084)).
 
 3. Add Huawei's AppId in `android/app/src/main/AndroidManifest.xml`
 
@@ -27,9 +27,9 @@ flutter pub get huawei_push
 </application>
 ```
 
-4. Add `xxx.jks` signature file in `android/app/` directory ([Configure signature](!https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-integrating-sdk-0000001050040084#section9256185512327)
+4. Add `xxx.jks` signature file in `android/app/` directory ([Configure signature](https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-integrating-sdk-0000001050040084#section9256185512327)
 
-), and add `signingConfigs` information to `android/app/build.gradle`, and configure obfuscation file ([Configure obfuscation file](!https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-config-obfuscation-scripts-0000001050176973)).
+), and add `signingConfigs` information to `android/app/build.gradle`, and configure obfuscation file ([Configure obfuscation file](https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-config-obfuscation-scripts-0000001050176973)).
 
 
 ```gradle
@@ -61,13 +61,13 @@ android{
 }
 ```
 
-5. Upload the certificate fingerprint to Huawei Push backend ([Get certificate fingerprint](!https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-config-agc-0000001050170137)).
+5. Upload the certificate fingerprint to Huawei Push backend ([Get certificate fingerprint](https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/android-config-agc-0000001050170137)).
 
 ## Setting up in im sdk
 
 1. Integrate im sdk.
 
-2. Upload Huawei Push configuration to Easemob backend [Upload certificate to im backend](!https://doc.easemob.com/document/android/push.html#%E4%B8%8A%E4%BC%A0%E5%88%B0%E8%AE%BE%E5%A4%87%E8%AF%81%E4%B9%A6%E5%88%B0%E7%8E%AF%E4%BF%A1%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E4%BA%91%E6%8E%A7%E5%88%B6%E5%8F%B0).
+2. Upload Huawei Push configuration to Easemob backend [Upload certificate to im backend](https://doc.easemob.com/document/android/push.html#%E4%B8%8A%E4%BC%A0%E5%88%B0%E8%AE%BE%E5%A4%87%E8%AF%81%E4%B9%A6%E5%88%B0%E7%8E%AF%E4%BF%A1%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E4%BA%91%E6%8E%A7%E5%88%B6%E5%8F%B0).
 
 3. Need to start HWPush during initialization.
 
